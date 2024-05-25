@@ -1,0 +1,7 @@
+command.playerspeed.usage=/playerspeed <target> <get|add|set|mult> [value]
+command.playerspeed.invalid_usage=Invalid command usage. For syntax, type /help playerspeed
+command.playerspeed.get=Current Speed: %s
+command.playerspeed.add=Speed increased by %s
+command.playerspeed.set=Speed set to %s
+command.playerspeed.mult=Speed multiplied by %s
+command.playerspeed.unknown_action=Unknown action: %s

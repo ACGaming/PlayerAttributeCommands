@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "playerattributecommands",
+    "name": "Player Attribute Commands",
+    "description": "Easily adjust player speed attributes with simple commands!",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/ACGaming/PlayerAttributeCommands",
+    "authorList": ["ACGaming"],
+    "credits": "CleanroomMC"
+  }
+]
