@@ -1,21 +1,21 @@
 ## Player Attribute Commands
 
-###### Easily adjust player speed attributes with simple commands!
+###### Easily adjust player attributes with simple commands!
 
-Player Attribute Commands allows you to change the player's base movement speed through commands. This mod is perfect for modpack creators who want to customize the player experience by modifying movement speed attributes.
+Player Attribute Commands allows you to change various player attributes through commands. This mod is perfect for modpack creators who want to customize the player experience by modifying vanilla and modded attributes.
 
 ### Commands
 
-* `/playerspeed <target> get` - Get the player's current base speed attribute.
-* `/playerspeed <target> add <value>` - Add to the player's base speed attribute.
-* `/playerspeed <target> set <value>` - Set the player's base speed attribute.
-* `/playerspeed <target> mult <value>` - Multiply the player's base speed attribute.
+* `/playerattribute <target> <attribute> get` - Get the player's current attribute value.
+* `/playerattribute <target> <attribute> add <value>` - Add to the player's attribute value.
+* `/playerattribute <target> <attribute> set <value>` - Set the player's attribute value.
+* `/playerattribute <target> <attribute> mult <value>` - Multiply the player's attribute value.
 
 ### Command Examples
 
-* `/playerspeed @p get` - Get the current speed of the nearest player
-* `/playerspeed @p add 0.1` - Increase the nearest player's speed by 0.1
-* `/playerspeed @p set 0.2` - Set the nearest player's speed to 0.2
-* `/playerspeed @p mult 2` - Multiply the nearest player's speed by 2
+* `/playerattribute @p generic.movementSpeed get` - Get the movement speed of the nearest player.
+* `/playerattribute @p generic.movementSpeed add 0.1` - Increase the nearest player's movement speed by 0.1.
+* `/playerattribute @p generic.movementSpeed set 0.2` - Set the nearest player's movement speed to 0.2.
+* `/playerattribute @p generic.movementSpeed mult 2` - Multiply the nearest player's movement speed by 2.
 
 This mod was commissioned for Minecraft 1.12.2
